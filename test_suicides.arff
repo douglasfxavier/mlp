@@ -1,0 +1,65 @@
+@relation suicides
+
+@attribute ﻿country {Albania,'Antigua and Barbuda',Argentina,Armenia,Aruba,Australia,Austria,Azerbaijan,Bahamas,Bahrain,Barbados,Belarus,Belgium,Belize,'Bosnia and Herzegovina',Brazil,Bulgaria,'Cabo Verde',Canada,Chile,Colombia,'Costa Rica',Croatia,Cuba,Cyprus,'Czech Republic',Denmark,Dominica,Ecuador,'El Salvador',Estonia,Fiji,Finland,France,Georgia,Germany,Greece,Grenada,Guatemala,Guyana,Hungary,Iceland,Ireland,Israel,Italy,Jamaica,Japan,Kazakhstan,Kiribati,Kuwait,Kyrgyzstan,Latvia,Lithuania,Luxembourg,Macau,Maldives,Malta,Mauritius,Mexico,Mongolia,Montenegro,Netherlands,'New Zealand',Nicaragua,Norway,Oman,Panama,Paraguay,Philippines,Poland,Portugal,'Puerto Rico',Qatar,'Republic of Korea',Romania,'Russian Federation','Saint Kitts and Nevis','Saint Lucia','Saint Vincent and Grenadines','San Marino',Serbia,Seychelles,Singapore,Slovakia,Slovenia,'South Africa',Spain,'Sri Lanka',Suriname,Sweden,Switzerland,Thailand,'Trinidad and Tobago',Turkey,Turkmenistan,Ukraine,'United Arab Emirates','United Kingdom','United States',Uruguay,Uzbekistan}
+@attribute year numeric
+@attribute sex {male,female}
+@attribute age {'15-24 years','35-54 years','75+ years','25-34 years','55-74 years','5-14 years'}
+@attribute suicides_no numeric
+@attribute population numeric 
+@attribute suicides/100k pop numeric
+@attribute generation {'Generation X',Silent,'G.I. Generation',Boomers,Millenials,'Generation Z'}
+
+
+Albania,1987,male,15-24 years,21,312900,6.71,Generation X
+Albania,1987,female,15-24 years,14,289700,4.83,Generation X
+Albania,1987,male,75+ years,1,21800,4.59,G.I. Generation
+Albania,1987,male,25-34 years,9,274300,3.28,Boomers
+Albania,1987,female,75+ years,1,35600,2.81,G.I. Generation
+Albania,1987,female,35-54 years,6,278800,2.15,Silent
+Albania,1987,female,25-34 years,4,257200,1.56,Boomers
+Argentina,1985,female,75+ years,41,537000,7.64,G.I. Generation
+Argentina,1985,male,15-24 years,156,2415200,6.46,Generation X
+Argentina,1985,female,35-54 years,142,3355300,4.23,Silent
+Argentina,1985,female,25-34 years,65,2185200,2.97,Boomers
+Argentina,1985,female,15-24 years,69,2354200,2.93,Generation X
+Argentina,1985,male,5-14 years,16,3044200,0.53,Generation X
+Argentina,1985,female,5-14 years,11,2955200,0.37,Generation X
+Argentina,1986,male,75+ years,230,365000,63.01,G.I. Generation
+Argentina,1986,male,55-74 years,530,2008300,26.39,G.I. Generation
+Argentina,1986,male,35-54 years,478,3365200,14.2,Silent
+Brazil,1985,male,75+ years,129,840300,15.35,G.I. Generation
+Brazil,1985,male,55-74 years,535,5364900,9.97,G.I. Generation
+Brazil,1985,male,35-54 years,1011,11986300,8.43,Silent
+Brazil,1985,male,25-34 years,791,10762900,7.35,Boomers
+Brazil,1985,male,15-24 years,661,13834000,4.78,Generation X
+Brazil,1985,female,75+ years,32,988100,3.24,G.I. Generation
+Brazil,1985,female,55-74 years,148,5650100,2.62,G.I. Generation
+Brazil,1985,female,25-34 years,269,10798700,2.49,Boomers
+Brazil,1985,female,35-54 years,296,12185200,2.43,Silent
+Brazil,1985,female,15-24 years,280,13751800,2.04,Generation X
+Brazil,1985,female,5-14 years,41,15622900,0.26,Generation X
+United Arab Emirates,2005,male,15-24 years,7,454397,1.54,Millenials
+United Arab Emirates,2005,female,35-54 years,3,286724,1.05,Boomers
+United Arab Emirates,2005,female,5-14 years,0,261386,0,Millenials
+United Arab Emirates,2005,female,55-74 years,0,37641,0,Silent
+United Arab Emirates,2005,female,75+ years,0,5259,0,Silent
+United Arab Emirates,2005,male,5-14 years,0,282770,0,Millenials
+United Arab Emirates,2005,male,75+ years,0,6887,0,Silent
+United Arab Emirates,2006,female,55-74 years,2,40353,4.96,Silent
+United Arab Emirates,2006,male,25-34 years,37,1335454,2.77,Generation X
+United Arab Emirates,2006,male,35-54 years,30,1244561,2.41,Boomer
+United Kingdom,1985,female,55-74 years,678,6002096,11.3,G.I. Generation
+United Kingdom,1985,female,75+ years,237,2418692,9.8,G.I. Generation
+United Kingdom,1985,male,15-24 years,411,4731293,8.69,Generation X
+United Kingdom,1985,female,35-54 years,505,6879295,7.34,Silent
+United Kingdom,1985,female,25-34 years,176,3899906,4.51,Boomers
+United Kingdom,1985,female,15-24 years,86,4549121,1.89,Generation X
+United Kingdom,1985,male,5-14 years,3,3740694,0.08,Generation X
+United Kingdom,1985,female,5-14 years,2,3542919,0.06,Generation X
+United Kingdom,1986,male,75+ years,280,1227718,22.81,G.I. Generation
+United Kingdom,1986,male,55-74 years,892,5159651,17.29,G.I. Generation
+United Kingdom,1986,male,35-54 years,1152,6950315,16.57,Silent
+United Kingdom,1986,male,25-34 years,616,4039982,15.25,Boomers
+United Kingdom,1986,male,15-24 years,449,4715034,9.52,Generation X
+United Kingdom,1986,female,75+ years,223,2454593,9.09,G.I. Generation
+United Kingdom,1986,female,55-74 years,541,5964761,9.07,G.I. Generatio
